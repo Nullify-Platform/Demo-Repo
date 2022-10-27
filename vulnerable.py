@@ -1,5 +1,3 @@
-
-
 from django.db.models.expressions import RawSQL
 from django.contrib.auth.models import User
 
