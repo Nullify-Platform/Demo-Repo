@@ -6,4 +6,3 @@ User.objects.annotate(val=RawSQL('secure', []))
 
 # insecure example
 User.objects.annotate(val=RawSQL('%secure' % 'nos', []))
-
