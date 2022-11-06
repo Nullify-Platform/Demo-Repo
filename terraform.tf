@@ -23,4 +23,3 @@ resource "aws_ecr_repository" "bad_example" {
         scan_on_push = false
     }
 }
-
